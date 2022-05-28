@@ -30,9 +30,9 @@ function createPost(element, id, title, description, sticker){
                             <p class="info_text">${description}</p>`
     img.src = `${sticker}`;
 
-    add.innerHTML = '<p class="btn_text">Додати емоцію</p><img class="btn_logo add" src="/img/icons/bag-plus.svg">';
-    del.innerHTML = '<p class="btn_text">Видалити емоцію</p><img class="btn_logo del" src="/img/icons/trash.svg">';
-    learn.innerHTML = '<p class="btn_text">Дізнатися більше</p><img class="btn_logo del" src="/img/icons/three-dots.svg">';
+    add.innerHTML = '<p class="btn_text">Додати емоцію</p><img class="btn_logo add" src="../img/icons/bag-plus.svg">';
+    del.innerHTML = '<p class="btn_text">Видалити емоцію</p><img class="btn_logo del" src="../img/icons/trash.svg">';
+    learn.innerHTML = '<p class="btn_text">Дізнатися більше</p><img class="btn_logo del" src="../img/icons/three-dots.svg">';
 
     main.append(block);
     block.append(block_img);
