@@ -30,9 +30,9 @@ function createPost(element, id, title, description, sticker){
                             <p class="info_text">${description}</p>`
     img.src = `${sticker}`;
 
-    add.innerHTML = '<p class="btn_text">Додати емоцію</p><img class="btn_logo add" src="../img/icons/bag-plus.svg">';
-    del.innerHTML = '<p class="btn_text">Видалити емоцію</p><img class="btn_logo del" src="../img/icons/trash.svg">';
-    learn.innerHTML = '<p class="btn_text">Дізнатися більше</p><img class="btn_logo del" src="../img/icons/three-dots.svg">';
+    add.innerHTML = '<p class="btn_text">Додати емоцію</p><img class="btn_logo add" src="img/icons/bag-plus.svg">';
+    del.innerHTML = '<p class="btn_text">Видалити емоцію</p><img class="btn_logo del" src="img/icons/trash.svg">';
+    learn.innerHTML = '<p class="btn_text">Дізнатися більше</p><img class="btn_logo del" src="img/icons/three-dots.svg">';
 
     main.append(block);
     block.append(block_img);
@@ -114,12 +114,12 @@ function showPost(element, id, title, description, sticker, wiki_http){
     
     img.src = `${sticker}`;
     
-    add.innerHTML = '<p class="btn_text">Додати емоцію</p><img class="btn_logo add" src="../img/icons/bag-plus.svg">';
-    del.innerHTML = '<p class="btn_text">Видалити емоцію</p><img class="btn_logo del" src="../img/icons/trash.svg">';
-    wiki.innerHTML = `<p class="btn_text">Відкрити Wiki</p><img class="btn_logo wiki" src="../img/icons/Wikipedia-Logo.wine1.png" width="32px" height="32px">`;
-    cancel.innerHTML = '<p class="btn_text">Повернутися до вибору</p><img class="btn_logo" src="../img/icons/caret-left-square.svg" width="22px" height="22px">';
-    next.innerHTML = '<p class="btn_text">Наступний</p><img class="btn_logo" src="../img/icons/caret-right-square.svg" width="22px" height="22px">';
-    previous.innerHTML = '<img class="btn_logo previus_btn" src="../img/icons/caret-left-square.svg" width="22px" height="22px"><p class="btn_text">Попередній</p>';
+    add.innerHTML = '<p class="btn_text">Додати емоцію</p><img class="btn_logo add" src="img/icons/bag-plus.svg">';
+    del.innerHTML = '<p class="btn_text">Видалити емоцію</p><img class="btn_logo del" src="img/icons/trash.svg">';
+    wiki.innerHTML = `<p class="btn_text">Відкрити Wiki</p><img class="btn_logo wiki" src="img/icons/Wikipedia-Logo.wine1.png" width="32px" height="32px">`;
+    cancel.innerHTML = '<p class="btn_text">Повернутися до вибору</p><img class="btn_logo" src="img/icons/caret-left-square.svg" width="22px" height="22px">';
+    next.innerHTML = '<p class="btn_text">Наступний</p><img class="btn_logo" src="img/icons/caret-right-square.svg" width="22px" height="22px">';
+    previous.innerHTML = '<img class="btn_logo previus_btn" src="img/icons/caret-left-square.svg" width="22px" height="22px"><p class="btn_text">Попередній</p>';
 
     main.append(block);
     block.append(block_img);
@@ -288,7 +288,7 @@ about_author.addEventListener('click', () => {
     info_style.innerHTML = `<h2 class="block_title">Білоус Андрій</h2>
                             <p class="info_text">Intern FullStack Developer</p>
                             <p class="info_text">Комунікабельний, відповідальний, найбільший мінус - приділяєбагато часу роботі!)</p>`
-    img.src = `../img/about/author.jpg`;
+    img.src = `img/about/author.jpg`;
 
     let main = document.querySelector('.main');
     main.innerHTML = '';
@@ -321,7 +321,7 @@ about_us.addEventListener('click', () => {
         info_style.innerHTML = `<h2 class="block_title">Animoji</h2>
                                 <p class="info_text">Ідея цього сайту спостерігати за емоційним та станом людини й потім виводити це у виді статистики з рекомендаціями</p>
                                 <p class="info_text">Оскільки функціональна части виконана. Залишається зробити лише статистично. Тому стан сайту зараз у: Розробці)</p>`
-        img.src = `../img/animoji/sticker33.png`;
+        img.src = `img/animoji/sticker33.png`;
 
         let main = document.querySelector('.main');
         main.innerHTML = '';
