@@ -114,12 +114,12 @@ function showPost(element, id, title, description, sticker, wiki_http){
     
     img.src = `${sticker}`;
     
-    add.innerHTML = '<p class="btn_text">Додати емоцію</p><img class="btn_logo add" src="/img/icons/bag-plus.svg">';
-    del.innerHTML = '<p class="btn_text">Видалити емоцію</p><img class="btn_logo del" src="/img/icons/trash.svg">';
-    wiki.innerHTML = `<p class="btn_text">Відкрити Wiki</p><img class="btn_logo wiki" src="/img/icons/Wikipedia-Logo.wine1.png" width="32px" height="32px">`;
-    cancel.innerHTML = '<p class="btn_text">Повернутися до вибору</p><img class="btn_logo" src="/img/icons/caret-left-square.svg" width="22px" height="22px">';
-    next.innerHTML = '<p class="btn_text">Наступний</p><img class="btn_logo" src="/img/icons/caret-right-square.svg" width="22px" height="22px">';
-    previous.innerHTML = '<img class="btn_logo previus_btn" src="/img/icons/caret-left-square.svg" width="22px" height="22px"><p class="btn_text">Попередній</p>';
+    add.innerHTML = '<p class="btn_text">Додати емоцію</p><img class="btn_logo add" src="../img/icons/bag-plus.svg">';
+    del.innerHTML = '<p class="btn_text">Видалити емоцію</p><img class="btn_logo del" src="../img/icons/trash.svg">';
+    wiki.innerHTML = `<p class="btn_text">Відкрити Wiki</p><img class="btn_logo wiki" src="../img/icons/Wikipedia-Logo.wine1.png" width="32px" height="32px">`;
+    cancel.innerHTML = '<p class="btn_text">Повернутися до вибору</p><img class="btn_logo" src="../img/icons/caret-left-square.svg" width="22px" height="22px">';
+    next.innerHTML = '<p class="btn_text">Наступний</p><img class="btn_logo" src="../img/icons/caret-right-square.svg" width="22px" height="22px">';
+    previous.innerHTML = '<img class="btn_logo previus_btn" src="../img/icons/caret-left-square.svg" width="22px" height="22px"><p class="btn_text">Попередній</p>';
 
     main.append(block);
     block.append(block_img);
