@@ -46,7 +46,7 @@ input {
 }
 
 body {
-  background: url(./img/background.jpg) no-repeat fixed center;
+  background: url(../img/background.jpg) no-repeat fixed center;
   font-family: "Amaranth", sans-serif;
   color: #fff;
 }
