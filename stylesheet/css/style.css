@@ -46,7 +46,7 @@ input {
 }
 
 body {
-  background: url(/img/background.jpg) no-repeat fixed center;
+  background: url("../img/background.jpg") no-repeat fixed center;
   font-family: "Amaranth", sans-serif;
   color: #fff;
 }
@@ -108,8 +108,8 @@ header {
   display: inline-block;
   padding: 8px 0px 8px 24px;
   background-color: #fff;
-  -webkit-mask: url(/img/icons/basket3.svg) no-repeat center;
-  mask: url(/img/icons/basket3.svg) no-repeat center;
+  -webkit-mask: url(img/icons/basket3.svg) no-repeat center;
+  mask: url(img/icons/basket3.svg) no-repeat center;
 }
 .header-content-block .nav .nav-list .nav-item a:hover {
   border: 2px solid #000;
